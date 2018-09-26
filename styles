@@ -1,4 +1,4 @@
-style.html﻿html, body {
+html, body {
   min-height: 100%;
   font-weight: 300;
 }
@@ -15,10 +15,16 @@ body {
 }
 
 .main {
-  background-color: #000000;
+  background-color:#141E30;
   color: #ffffff;
   text-align: center;
 }
+}
+figure img {
+  width: 100%;
+  height: auto;
+}
+
 
 .company-description {
   font-size: 0.8rem;
@@ -88,5 +94,3 @@ nav a {
 .contact-btn a:active {
 	position: relative;
   top: 3px;
-}
-
